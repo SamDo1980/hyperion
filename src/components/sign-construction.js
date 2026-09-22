@@ -95,10 +95,7 @@ export function createSignConstructionSection() {
   visual.decoding = 'async';
 
   const visualCaption = element('figcaption', 'sign-construction-visual-caption');
-  visualCaption.append(
-    element('span', '', t('ENGINEERED')),
-    element('span', '', t('FOR A SAFER TOMORROW')),
-  );
+  visualCaption.append();
 
   visualPanel.append(visual, visualCaption);
   visualColumn.append(visualPanel);
