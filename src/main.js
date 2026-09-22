@@ -1,9 +1,9 @@
 import { createFooter } from './components/footer.js';
-import './styles/footer.css';
-import productsURL from './data/products.json?url';
-import familiesURL from './data/families.json?url';
-import taxonomyURL from './data/taxonomy.json?url';
-import configuratorURL from './data/configurator.json?url';
+
+const productsURL = './src/data/products.json';
+const familiesURL = './src/data/families.json';
+const taxonomyURL = './src/data/taxonomy.json';
+const configuratorURL = './src/data/configurator.json';
 import { createCatalogue } from './lib/product-catalogue.js';
 import { createCartStore } from './cart/cart-store.js';
 import { checkoutConfig } from './checkout/config.js';
@@ -17,21 +17,20 @@ import { language } from './lib/locale.js';
 import { createProductConfigurator } from './components/product-configurator.js';
 import { createOrderSummary } from './components/order-summary.js';
 import { element } from './lib/dom.js';
-import './styles/tokens.css';
-import './styles/base.css';
-import './styles/header.css';
-import './styles/contact-sales.css';
-import './styles/hero.css';
-import './styles/sign-construction.css';
-import './styles/search.css';
-import './styles/product.css';
-import './styles/configurator.css';
-import './styles/configurator-steps.css';
-import './styles/order-summary.css';
-import './styles/search-results.css';
-import './styles/configurator-purchase.css';
-import './styles/checkout.css';
-import './styles/marine-theme.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const feedback = document.querySelector('#cart-feedback');
 let toastTimer;

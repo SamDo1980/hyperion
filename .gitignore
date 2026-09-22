@@ -1,7 +1,0 @@
-node_modules/
-dist/
-.tools/
-test-results/
-.DS_Store
-*.log
-quick-preview/

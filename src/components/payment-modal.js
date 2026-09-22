@@ -42,7 +42,7 @@ export function createPaymentModal(checkout) {
     }
     if (method === 'card' && simulation) {
       const brands = element('div', 'payment-card-logos');
-      for (const brand of ['visa','mastercard']) { const frame = element('span', `payment-logo payment-logo-${brand}`), img = element('img'); img.src = `${import.meta.env.BASE_URL}assets/${brand}.png`; img.alt = brand === 'visa' ? 'Visa' : 'Mastercard'; frame.append(img); brands.append(frame); } content.append(brands);
+      for (const brand of ['visa','mastercard']) { const frame = element('span', `payment-logo payment-logo-${brand}`), img = element('img'); img.src = `${'./'}assets/${brand}.png`; img.alt = brand === 'visa' ? 'Visa' : 'Mastercard'; frame.append(img); brands.append(frame); } content.append(brands);
       const form = element('form', 'card-fields'); form.id = 'payment-card-form'; form.noValidate = true; form.autocomplete = 'off';
       action.type = 'submit'; action.setAttribute('form', form.id);
       for (const [key, label, placeholder, max] of [['number','Card number','1234 1234 1234 1234',23],['expiry','Expiry','MM / YY',7],['cvv','CVV / CVC','CVC',4]]) {
@@ -125,7 +125,7 @@ export function createPaymentModal(checkout) {
     } else if (method === 'zalopay') {
       const steps = element('ol', 'zalopay-steps'); for (const text of ['Open ZaloPay','Open QR scanner','Scan and confirm']) steps.append(element('li','',t(text))); content.append(steps);
       const gateway = element('div', 'simulation-gateway'); gateway.hidden = true;
-      const gatewayBrand = element('img', 'zalopay-gateway-logo'); gatewayBrand.src = `${import.meta.env.BASE_URL}assets/zalopay.png`; gatewayBrand.alt = 'ZaloPay';
+      const gatewayBrand = element('img', 'zalopay-gateway-logo'); gatewayBrand.src = `${'./'}assets/zalopay.png`; gatewayBrand.alt = 'ZaloPay';
       const back = element('button','button',t('Return to checkout')); back.type = 'button'; gateway.append(gatewayBrand, back); content.append(gateway);
       back.addEventListener('click', () => { gateway.hidden = true; action.hidden = false; update(checkout.getState()); action.focus(); });
       action.addEventListener('click', async () => {

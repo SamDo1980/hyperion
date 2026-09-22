@@ -86,14 +86,14 @@ export function createOrderCompletion(checkout) {
           button.setAttribute('aria-label', t('Card — Visa / Mastercard'));
           for (const brand of ['visa', 'mastercard']) {
             const frame = element('span', `payment-logo payment-logo-${brand}`);
-            const image = element('img'); image.src = `${import.meta.env.BASE_URL}assets/${brand}.png`; image.alt = brand === 'visa' ? 'Visa' : 'Mastercard';
+            const image = element('img'); image.src = `${'./'}assets/${brand}.png`; image.alt = brand === 'visa' ? 'Visa' : 'Mastercard';
             frame.append(image); brands.append(frame);
           }
         } else {
           const brand = value === 'zalopay' ? 'zalopay' : 'vietqr';
           if (value === 'bank_transfer') button.setAttribute('aria-label', t('Bank Transfer / VietQR'));
           const frame = element('span', `payment-logo payment-logo-${brand}`);
-          const image = element('img'); image.src = `${import.meta.env.BASE_URL}assets/${brand === 'zalopay' ? 'Zalopay-logo.png' : 'vietqr.png'}`;
+          const image = element('img'); image.src = `${'./'}assets/${brand === 'zalopay' ? 'Zalopay-logo.png' : 'vietqr.png'}`;
           image.alt = value === 'zalopay' ? 'ZaloPay' : 'VietQR'; frame.append(image); brands.append(frame);
         }
         button.append(radio, tile, copy, brands); button.setAttribute('aria-describedby', availability.id);
