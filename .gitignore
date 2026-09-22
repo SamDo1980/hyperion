@@ -4,3 +4,4 @@ dist/
 test-results/
 .DS_Store
 *.log
+quick-preview/
