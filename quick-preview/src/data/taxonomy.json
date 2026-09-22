@@ -1,0 +1,50 @@
+{
+  "source": "Customer Category fields / Category Summary",
+  "groups": [
+    {
+      "id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifesaving Signs (LSS/LSA)",
+      "label_vi": "Biển báo cứu sinh",
+      "order": 1,
+      "family_count": 70,
+      "sku_count": 140,
+      "impa_count": 70
+    },
+    {
+      "id": "means-of-escape-signs-mes",
+      "label_en": "Means of Escape Signs (MES)",
+      "label_vi": "Biển báo thoát hiểm",
+      "order": 2,
+      "family_count": 57,
+      "sku_count": 114,
+      "impa_count": 53
+    },
+    {
+      "id": "emergency-equipment-signs-ees",
+      "label_en": "Emergency Equipment Signs (EES)",
+      "label_vi": "Biển báo thiết bị khẩn cấp",
+      "order": 3,
+      "family_count": 16,
+      "sku_count": 32,
+      "impa_count": 16
+    },
+    {
+      "id": "mandatory-signs-mss",
+      "label_en": "Mandatory Signs (MSS)",
+      "label_vi": "Biển báo bắt buộc",
+      "order": 4,
+      "family_count": 10,
+      "sku_count": 20,
+      "impa_count": 10
+    },
+    {
+      "id": "general-shipboard-port-leisure-signs",
+      "label_en": "General Shipboard / Port & Leisure Signs",
+      "label_vi": "Biển báo chung trên tàu / cảng & khu vực dịch vụ",
+      "order": 5,
+      "family_count": 1,
+      "sku_count": 2,
+      "impa_count": 1
+    }
+  ]
+}

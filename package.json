@@ -1,0 +1,29 @@
+{
+  "name": "hyperion-safety-signs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "data:build": "node scripts/build-products-data.js",
+    "predev": "npm run data:build",
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run data:build && vite build",
+    "build:quick-preview": "npm run data:build && vite build --base=./ --outDir quick-preview",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "npm run data:build && node --test tests/catalogue.test.js tests/configurator.test.js tests/checkout.test.js tests/phase-thirteen.test.js tests/phase-sixteen.test.js",
+    "test:checkout:browser": "node tests/browser-checkout.js",
+    "test:checkout:service": "node tests/browser-checkout-service.js",
+    "test:browser": "node tests/browser.js",
+    "test:phase13:browser": "node tests/browser-phase-thirteen.js",
+    "test:phase14:browser": "node tests/browser-phase-thirteen.js --phase14",
+    "build:static-preview": "npm run data:build && node scripts/build-static-preview.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "vite": "8.3.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}

@@ -1,0 +1,2154 @@
+{
+  "source": "Normalized SKU Master / Master Index",
+  "branches": {
+    "lifesaving-signs-lss-lsa": [
+      "customer_category_id",
+      "config_concept",
+      "config_direction",
+      "dimensions_display",
+      "product_family_id",
+      "edition"
+    ],
+    "means-of-escape-signs-mes": [
+      "customer_category_id",
+      "config_concept",
+      "config_direction",
+      "dimensions_display",
+      "product_family_id",
+      "edition"
+    ],
+    "emergency-equipment-signs-ees": [
+      "customer_category_id",
+      "config_concept",
+      "dimensions_display",
+      "product_family_id",
+      "edition"
+    ],
+    "mandatory-signs-mss": [
+      "customer_category_id",
+      "config_concept",
+      "dimensions_display",
+      "product_family_id",
+      "edition"
+    ],
+    "general-shipboard-port-leisure-signs": [
+      "customer_category_id",
+      "config_concept",
+      "dimensions_display",
+      "product_family_id",
+      "edition"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifebuoy",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifebuoy",
+      "label_vi": "Phao cứu sinh",
+      "labels_vi": [
+        "Phao cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-005",
+        "HYP-FAM-030"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifebuoy With Line",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifebuoy With Line",
+      "label_vi": "Phao cứu sinh có dây thừng",
+      "labels_vi": [
+        "Phao cứu sinh có dây thừng"
+      ],
+      "family_ids": [
+        "HYP-FAM-006",
+        "HYP-FAM-031"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifebuoy With Light",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifebuoy With Light",
+      "label_vi": "Phao cứu sinh có đèn phát sáng",
+      "labels_vi": [
+        "Phao cứu sinh có đèn phát sáng"
+      ],
+      "family_ids": [
+        "HYP-FAM-007",
+        "HYP-FAM-032"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifebuoy With Light & Smoke",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifebuoy With Light & Smoke",
+      "label_vi": "Phao cứu sinh có đèn & tín hiệu khói",
+      "labels_vi": [
+        "Phao cứu sinh có đèn & tín hiệu khói"
+      ],
+      "family_ids": [
+        "HYP-FAM-008",
+        "HYP-FAM-033"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Survival Craft Pyrotechnics",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Survival Craft Pyrotechnics",
+      "label_vi": "Pháo hiệu cứu sinh",
+      "labels_vi": [
+        "Pháo hiệu cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-009",
+        "HYP-FAM-062"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Rocket Parachute",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Rocket Parachute",
+      "label_vi": "Pháo dù cứu hộ",
+      "labels_vi": [
+        "Pháo dù cứu hộ"
+      ],
+      "family_ids": [
+        "HYP-FAM-010",
+        "HYP-FAM-063"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Line Throwing Appliance",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Line Throwing Appliance",
+      "label_vi": "Thiết bị phóng dây cứu hộ",
+      "labels_vi": [
+        "Thiết bị phóng dây cứu hộ"
+      ],
+      "family_ids": [
+        "HYP-FAM-011",
+        "HYP-FAM-064"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifeboat",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifeboat",
+      "label_vi": "Xuồng cứu sinh / Xuồng cứu sinh - Hướng lên sang phải / Xuồng cứu sinh - Hướng xuống sang phải",
+      "labels_vi": [
+        "Xuồng cứu sinh",
+        "Xuồng cứu sinh - Hướng lên sang phải",
+        "Xuồng cứu sinh - Hướng xuống sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-023",
+        "HYP-FAM-024",
+        "HYP-FAM-050",
+        "HYP-FAM-101",
+        "HYP-FAM-102"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Rescue Boat",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Rescue Boat",
+      "label_vi": "Thuyền cứu hộ",
+      "labels_vi": [
+        "Thuyền cứu hộ"
+      ],
+      "family_ids": [
+        "HYP-FAM-025",
+        "HYP-FAM-051"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Liferaft",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Liferaft",
+      "label_vi": "Bè cứu sinh",
+      "labels_vi": [
+        "Bè cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-026",
+        "HYP-FAM-052"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Davit Launched Liferaft",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Davit Launched Liferaft",
+      "label_vi": "Bè cứu sinh hạ bằng cẩu",
+      "labels_vi": [
+        "Bè cứu sinh hạ bằng cẩu"
+      ],
+      "family_ids": [
+        "HYP-FAM-027",
+        "HYP-FAM-053"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Embarkation Ladder",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Embarkation Ladder",
+      "label_vi": "Thang xuống xuồng cứu sinh",
+      "labels_vi": [
+        "Thang xuống xuồng cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-028",
+        "HYP-FAM-054"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Evacuation Slide",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Evacuation Slide",
+      "label_vi": "Máng trượt thoát hiểm",
+      "labels_vi": [
+        "Máng trượt thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-029",
+        "HYP-FAM-055"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifejacket",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifejacket",
+      "label_vi": "Áo phao cứu sinh",
+      "labels_vi": [
+        "Áo phao cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-034",
+        "HYP-FAM-056"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Childs Lifejacket",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Childs Lifejacket",
+      "label_vi": "Áo phao trẻ em",
+      "labels_vi": [
+        "Áo phao trẻ em"
+      ],
+      "family_ids": [
+        "HYP-FAM-035"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Immersion Suit",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Immersion Suit",
+      "label_vi": "Bộ quần áo chống đắm",
+      "labels_vi": [
+        "Bộ quần áo chống đắm"
+      ],
+      "family_ids": [
+        "HYP-FAM-036",
+        "HYP-FAM-058"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Survival Craft Portable Radio",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Survival Craft Portable Radio",
+      "label_vi": "Bộ đàm cầm tay cứu hộ",
+      "labels_vi": [
+        "Bộ đàm cầm tay cứu hộ"
+      ],
+      "family_ids": [
+        "HYP-FAM-037",
+        "HYP-FAM-059"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Epirb",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Epirb",
+      "label_vi": "Phao phát tín hiệu EPIRB",
+      "labels_vi": [
+        "Phao phát tín hiệu EPIRB"
+      ],
+      "family_ids": [
+        "HYP-FAM-038",
+        "HYP-FAM-060"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Radar Transponder",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Radar Transponder",
+      "label_vi": "Thiết bị phản hồi Radar (SART)",
+      "labels_vi": [
+        "Thiết bị phản hồi Radar (SART)"
+      ],
+      "family_ids": [
+        "HYP-FAM-039",
+        "HYP-FAM-061"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Evacuation chute",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Evacuation chute",
+      "label_vi": "Ống trượt thoát hiểm",
+      "labels_vi": [
+        "Ống trượt thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-041"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Anti-exposure suit",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Anti-exposure suit",
+      "label_vi": "Bộ quần áo chống phơi nhiễm",
+      "labels_vi": [
+        "Bộ quần áo chống phơi nhiễm"
+      ],
+      "family_ids": [
+        "HYP-FAM-043"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Rescue Boat Max 2 Prs",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Rescue Boat Max 2 Prs",
+      "label_vi": "Thuyền cứu hộ (Tối đa 2 người)",
+      "labels_vi": [
+        "Thuyền cứu hộ (Tối đa 2 người)"
+      ],
+      "family_ids": [
+        "HYP-FAM-045"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifebuoy With Light & Line",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifebuoy With Light & Line",
+      "label_vi": "Phao cứu sinh có đèn & dây thừng",
+      "labels_vi": [
+        "Phao cứu sinh có đèn & dây thừng"
+      ],
+      "family_ids": [
+        "HYP-FAM-048"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Child's Lifejacket",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Child's Lifejacket",
+      "label_vi": "Áo phao trẻ em",
+      "labels_vi": [
+        "Áo phao trẻ em"
+      ],
+      "family_ids": [
+        "HYP-FAM-057"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Evacuation Suit",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Evacuation Suit",
+      "label_vi": "Bộ quần áo thoát hiểm",
+      "labels_vi": [
+        "Bộ quần áo thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-066"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:TPA",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "TPA",
+      "label_vi": "Dụng cụ giữ nhiệt (TPA)",
+      "labels_vi": [
+        "Dụng cụ giữ nhiệt (TPA)"
+      ],
+      "family_ids": [
+        "HYP-FAM-068"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:AES",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "AES",
+      "label_vi": "Quần áo chống phơi nhiễm (AES)",
+      "labels_vi": [
+        "Quần áo chống phơi nhiễm (AES)"
+      ],
+      "family_ids": [
+        "HYP-FAM-069"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Letter “A”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Letter “A”",
+      "label_vi": "Chữ cái “A”",
+      "labels_vi": [
+        "Chữ cái “A”"
+      ],
+      "family_ids": [
+        "HYP-FAM-085"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Letter “B”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Letter “B”",
+      "label_vi": "Chữ cái “B”",
+      "labels_vi": [
+        "Chữ cái “B”"
+      ],
+      "family_ids": [
+        "HYP-FAM-086"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Letter “C”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Letter “C”",
+      "label_vi": "Chữ cái “C”",
+      "labels_vi": [
+        "Chữ cái “C”"
+      ],
+      "family_ids": [
+        "HYP-FAM-087"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Letter “D”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Letter “D”",
+      "label_vi": "Chữ cái “D”",
+      "labels_vi": [
+        "Chữ cái “D”"
+      ],
+      "family_ids": [
+        "HYP-FAM-088"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Letter “E”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Letter “E”",
+      "label_vi": "Chữ cái “E”",
+      "labels_vi": [
+        "Chữ cái “E”"
+      ],
+      "family_ids": [
+        "HYP-FAM-089"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Letter “F”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Letter “F”",
+      "label_vi": "Chữ cái “F”",
+      "labels_vi": [
+        "Chữ cái “F”"
+      ],
+      "family_ids": [
+        "HYP-FAM-090"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “0”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “0”",
+      "label_vi": "Chữ số “0”",
+      "labels_vi": [
+        "Chữ số “0”"
+      ],
+      "family_ids": [
+        "HYP-FAM-091"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “1”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “1”",
+      "label_vi": "Chữ số “1”",
+      "labels_vi": [
+        "Chữ số “1”"
+      ],
+      "family_ids": [
+        "HYP-FAM-092"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “2”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “2”",
+      "label_vi": "Chữ số “2”",
+      "labels_vi": [
+        "Chữ số “2”"
+      ],
+      "family_ids": [
+        "HYP-FAM-093"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “3”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “3”",
+      "label_vi": "Chữ số “3”",
+      "labels_vi": [
+        "Chữ số “3”"
+      ],
+      "family_ids": [
+        "HYP-FAM-094"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “4”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “4”",
+      "label_vi": "Chữ số “4”",
+      "labels_vi": [
+        "Chữ số “4”"
+      ],
+      "family_ids": [
+        "HYP-FAM-095"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “5”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “5”",
+      "label_vi": "Chữ số “5”",
+      "labels_vi": [
+        "Chữ số “5”"
+      ],
+      "family_ids": [
+        "HYP-FAM-096"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “6”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “6”",
+      "label_vi": "Chữ số “6”",
+      "labels_vi": [
+        "Chữ số “6”"
+      ],
+      "family_ids": [
+        "HYP-FAM-097"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “7”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “7”",
+      "label_vi": "Chữ số “7”",
+      "labels_vi": [
+        "Chữ số “7”"
+      ],
+      "family_ids": [
+        "HYP-FAM-098"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “8”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “8”",
+      "label_vi": "Chữ số “8”",
+      "labels_vi": [
+        "Chữ số “8”"
+      ],
+      "family_ids": [
+        "HYP-FAM-099"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Number “9”",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Number “9”",
+      "label_vi": "Chữ số “9”",
+      "labels_vi": [
+        "Chữ số “9”"
+      ],
+      "family_ids": [
+        "HYP-FAM-100"
+      ]
+    },
+    {
+      "id": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "category_id": "lifesaving-signs-lss-lsa",
+      "label_en": "Lifeboat Side",
+      "label_vi": "Xuồng cứu sinh - Chéo lên sang trái / Xuồng cứu sinh - Bên trái / Xuồng cứu sinh - Chéo xuống sang trái / Xuồng cứu sinh - Chéo lên sang phải / Xuồng cứu sinh - Bên phải / Xuồng cứu sinh - Chéo xuống sang phải",
+      "labels_vi": [
+        "Xuồng cứu sinh - Chéo lên sang trái",
+        "Xuồng cứu sinh - Bên trái",
+        "Xuồng cứu sinh - Chéo xuống sang trái",
+        "Xuồng cứu sinh - Chéo lên sang phải",
+        "Xuồng cứu sinh - Bên phải",
+        "Xuồng cứu sinh - Chéo xuống sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-103",
+        "HYP-FAM-104",
+        "HYP-FAM-105",
+        "HYP-FAM-106",
+        "HYP-FAM-107",
+        "HYP-FAM-108"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Push To Open",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Push To Open",
+      "label_vi": "Đẩy để mở",
+      "labels_vi": [
+        "Đẩy để mở"
+      ],
+      "family_ids": [
+        "HYP-FAM-004"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Assembly Station",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Assembly Station",
+      "label_vi": "Điểm tập kết / Trạm tập trung / Điểm tập kết - Hướng lên sang phải / Điểm tập kết - Hướng xuống sang phải",
+      "labels_vi": [
+        "Điểm tập kết / Trạm tập trung",
+        "Điểm tập kết - Hướng lên sang phải",
+        "Điểm tập kết - Hướng xuống sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-012",
+        "HYP-FAM-040",
+        "HYP-FAM-049",
+        "HYP-FAM-065",
+        "HYP-FAM-132",
+        "HYP-FAM-133"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Safety Arrow",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Safety Arrow",
+      "label_vi": "Mũi tên chỉ hướng an toàn thẳng",
+      "labels_vi": [
+        "Mũi tên chỉ hướng an toàn thẳng"
+      ],
+      "family_ids": [
+        "HYP-FAM-013",
+        "HYP-FAM-014"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Arrow",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Arrow",
+      "label_vi": "Mũi tên chỉ hướng thẳng / Mũi tên chéo / Mũi tên thẳng",
+      "labels_vi": [
+        "Mũi tên chỉ hướng thẳng",
+        "Mũi tên chéo",
+        "Mũi tên thẳng"
+      ],
+      "family_ids": [
+        "HYP-FAM-021",
+        "HYP-FAM-022",
+        "HYP-FAM-073",
+        "HYP-FAM-074",
+        "HYP-FAM-148",
+        "HYP-FAM-149"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Left-man Run Right-arrow",
+      "label_vi": "Lối thoát trái - Người chạy phải - Mũi tên hướng lên / Lối thoát trái - Người chạy phải - Mũi tên hướng xuống / Lối thoát trái - Người chạy phải - Mũi tên sang phải",
+      "labels_vi": [
+        "Lối thoát trái - Người chạy phải - Mũi tên hướng lên",
+        "Lối thoát trái - Người chạy phải - Mũi tên hướng xuống",
+        "Lối thoát trái - Người chạy phải - Mũi tên sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-109",
+        "HYP-FAM-110",
+        "HYP-FAM-115"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit",
+      "label_vi": "Lối thoát phải - Người chạy trái - Mũi tên chéo xuống trái / Lối thoát / Lối ra / Lối thoát bên trái - Người chạy sang phải (Chỉ dùng khẩn cấp)",
+      "labels_vi": [
+        "Lối thoát phải - Người chạy trái - Mũi tên chéo xuống trái",
+        "Lối thoát / Lối ra",
+        "Lối thoát bên trái - Người chạy sang phải (Chỉ dùng khẩn cấp)"
+      ],
+      "family_ids": [
+        "HYP-FAM-111",
+        "HYP-FAM-144",
+        "HYP-FAM-147"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Right-man Run Left-arrow Down/left",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Right-man Run Left-arrow Down/left",
+      "label_vi": "Lối thoát phải - Người chạy trái - Mũi tên chéo xuống trái",
+      "labels_vi": [
+        "Lối thoát phải - Người chạy trái - Mũi tên chéo xuống trái"
+      ],
+      "family_ids": [
+        "HYP-FAM-112"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Right-man Run Left-arrow",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Right-man Run Left-arrow",
+      "label_vi": "Lối thoát phải - Người chạy trái - Mũi tên sang trái",
+      "labels_vi": [
+        "Lối thoát phải - Người chạy trái - Mũi tên sang trái"
+      ],
+      "family_ids": [
+        "HYP-FAM-113"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow Up/right",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Left-man Run Right-arrow Up/right",
+      "label_vi": "Lối thoát trái - Người chạy phải - Mũi tên chéo lên phải",
+      "labels_vi": [
+        "Lối thoát trái - Người chạy phải - Mũi tên chéo lên phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-114"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow Down/right",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Left-man Run Right-arrow Down/right",
+      "label_vi": "Lối thoát trái - Người chạy phải - Mũi tên chéo xuống phải",
+      "labels_vi": [
+        "Lối thoát trái - Người chạy phải - Mũi tên chéo xuống phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-116"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Left-man Run",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Left-man Run",
+      "label_vi": "Lối thoát trái - Người chạy phải",
+      "labels_vi": [
+        "Lối thoát trái - Người chạy phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-117"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit Left-man Run Right-for Emergency Use Only",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit Left-man Run Right-for Emergency Use Only",
+      "label_vi": "Lối thoát bên trái - Người chạy sang phải (Chỉ dùng khẩn cấp)",
+      "labels_vi": [
+        "Lối thoát bên trái - Người chạy sang phải (Chỉ dùng khẩn cấp)"
+      ],
+      "family_ids": [
+        "HYP-FAM-118"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Escape Route",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Escape Route",
+      "label_vi": "Tuyến đường thoát hiểm",
+      "labels_vi": [
+        "Tuyến đường thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-119"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Escape to Sea",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Escape to Sea",
+      "label_vi": "Lối thoát ra biển",
+      "labels_vi": [
+        "Lối thoát ra biển"
+      ],
+      "family_ids": [
+        "HYP-FAM-120"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Escape Hatch",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Escape Hatch",
+      "label_vi": "Hầm thoát hiểm",
+      "labels_vi": [
+        "Hầm thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-121"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Escape Door",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Escape Door",
+      "label_vi": "Cửa thoát hiểm",
+      "labels_vi": [
+        "Cửa thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-122"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Escape Window",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Escape Window",
+      "label_vi": "Cửa sổ thoát hiểm",
+      "labels_vi": [
+        "Cửa sổ thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-123"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Emergency Escape",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Emergency Escape",
+      "label_vi": "Thoát hiểm khẩn cấp",
+      "labels_vi": [
+        "Thoát hiểm khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-124"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Muster Station",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Muster Station",
+      "label_vi": "Trạm tập trung - Hướng lên sang phải / Trạm tập trung - Hướng xuống sang phải / Trạm tập trung - Chéo lên sang phải",
+      "labels_vi": [
+        "Trạm tập trung - Hướng lên sang phải",
+        "Trạm tập trung - Hướng xuống sang phải",
+        "Trạm tập trung - Chéo lên sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-125",
+        "HYP-FAM-126",
+        "HYP-FAM-129"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Muster Station Side",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Muster Station Side",
+      "label_vi": "Trạm tập trung - Chéo lên sang trái / Trạm tập trung - Chéo xuống sang trái / Trạm tập trung - Chéo lên sang phải / Trạm tập trung - Chéo xuống sang phải",
+      "labels_vi": [
+        "Trạm tập trung - Chéo lên sang trái",
+        "Trạm tập trung - Chéo xuống sang trái",
+        "Trạm tập trung - Chéo lên sang phải",
+        "Trạm tập trung - Chéo xuống sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-127",
+        "HYP-FAM-128",
+        "HYP-FAM-130",
+        "HYP-FAM-131"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Assembly Station Side Left",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Assembly Station Side Left",
+      "label_vi": "Điểm tập kết - Chéo lên sang trái",
+      "labels_vi": [
+        "Điểm tập kết - Chéo lên sang trái"
+      ],
+      "family_ids": [
+        "HYP-FAM-134"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Assembly Station Side Right",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Assembly Station Side Right",
+      "label_vi": "Điểm tập kết - Chéo lên sang phải",
+      "labels_vi": [
+        "Điểm tập kết - Chéo lên sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-135"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Assembly Station Side",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Assembly Station Side",
+      "label_vi": "Điểm tập kết - Bên trái / Điểm tập kết - Bên phải / Điểm tập kết - Chéo xuống sang trái / Điểm tập kết - Chéo xuống sang phải",
+      "labels_vi": [
+        "Điểm tập kết - Bên trái",
+        "Điểm tập kết - Bên phải",
+        "Điểm tập kết - Chéo xuống sang trái",
+        "Điểm tập kết - Chéo xuống sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-136",
+        "HYP-FAM-137",
+        "HYP-FAM-138",
+        "HYP-FAM-139"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Refuge Point",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Refuge Point",
+      "label_vi": "Điểm trú ẩn an toàn / Điểm trú ẩn an toàn bên phải / Điểm trú ẩn an toàn bên trái",
+      "labels_vi": [
+        "Điểm trú ẩn an toàn",
+        "Điểm trú ẩn an toàn bên phải",
+        "Điểm trú ẩn an toàn bên trái"
+      ],
+      "family_ids": [
+        "HYP-FAM-140",
+        "HYP-FAM-145",
+        "HYP-FAM-146"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Man Run",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Man Run",
+      "label_vi": "Hướng người chạy sang trái / Hướng người chạy sang phải",
+      "labels_vi": [
+        "Hướng người chạy sang trái",
+        "Hướng người chạy sang phải"
+      ],
+      "family_ids": [
+        "HYP-FAM-141",
+        "HYP-FAM-142"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Exit for Emergency Use Only",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Exit for Emergency Use Only",
+      "label_vi": "Lối thoát chỉ dùng cho trường hợp khẩn cấp",
+      "labels_vi": [
+        "Lối thoát chỉ dùng cho trường hợp khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-143"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Horizontal Arrow Secondary Escape Route",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Horizontal Arrow Secondary Escape Route",
+      "label_vi": "Horizontal Arrow Secondary Tuyến đường thoát hiểm",
+      "labels_vi": [
+        "Horizontal Arrow Secondary Tuyến đường thoát hiểm"
+      ],
+      "family_ids": [
+        "HYP-FAM-150"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Secondary Escape Route",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Secondary Escape Route",
+      "label_vi": "Đẩy để mở",
+      "labels_vi": [
+        "Đẩy để mở"
+      ],
+      "family_ids": [
+        "HYP-FAM-151"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Pull To Open",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Pull To Open",
+      "label_vi": "Kéo sang phải để mở",
+      "labels_vi": [
+        "Kéo sang phải để mở"
+      ],
+      "family_ids": [
+        "HYP-FAM-152"
+      ]
+    },
+    {
+      "id": "means-of-escape-signs-mes:Slide To Open",
+      "category_id": "means-of-escape-signs-mes",
+      "label_en": "Slide To Open",
+      "label_vi": "Trượt sang trái để mở / Trượt sang phải để mở",
+      "labels_vi": [
+        "Trượt sang trái để mở",
+        "Trượt sang phải để mở"
+      ],
+      "family_ids": [
+        "HYP-FAM-153",
+        "HYP-FAM-154"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Hospital",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Hospital",
+      "label_vi": "Bệnh viện / Phòng y tế",
+      "labels_vi": [
+        "Bệnh viện / Phòng y tế"
+      ],
+      "family_ids": [
+        "HYP-FAM-001"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Emergency Eye Wash",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Emergency Eye Wash",
+      "label_vi": "Bồn rửa mắt khẩn cấp",
+      "labels_vi": [
+        "Bồn rửa mắt khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-002"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Emergency Stop",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Emergency Stop",
+      "label_vi": "Dừng khẩn cấp",
+      "labels_vi": [
+        "Dừng khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-003"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:A E D",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "A E D",
+      "label_vi": "Máy phá rung tim ngoài tự động (AED)",
+      "labels_vi": [
+        "Máy phá rung tim ngoài tự động (AED)"
+      ],
+      "family_ids": [
+        "HYP-FAM-016"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Emergency Shower",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Emergency Shower",
+      "label_vi": "Vòi tắm khẩn cấp",
+      "labels_vi": [
+        "Vòi tắm khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-017"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Telephone",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Telephone",
+      "label_vi": "Điện thoại khẩn cấp",
+      "labels_vi": [
+        "Điện thoại khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-018"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:General Alarm",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "General Alarm",
+      "label_vi": "Báo động chung",
+      "labels_vi": [
+        "Báo động chung"
+      ],
+      "family_ids": [
+        "HYP-FAM-019"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Voyage Data Recorder",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Voyage Data Recorder",
+      "label_vi": "Thiết bị ghi dữ liệu chuyến đi (VDR)",
+      "labels_vi": [
+        "Thiết bị ghi dữ liệu chuyến đi (VDR)"
+      ],
+      "family_ids": [
+        "HYP-FAM-020"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Stretcher",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Stretcher",
+      "label_vi": "Cáng thương / Dụng cụ giữ nhiệt (TPA)",
+      "labels_vi": [
+        "Cáng thương",
+        "Dụng cụ giữ nhiệt (TPA)"
+      ],
+      "family_ids": [
+        "HYP-FAM-042",
+        "HYP-FAM-067"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Medical Locker",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Medical Locker",
+      "label_vi": "Tủ thuốc y tế",
+      "labels_vi": [
+        "Tủ thuốc y tế"
+      ],
+      "family_ids": [
+        "HYP-FAM-044",
+        "HYP-FAM-072"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Emergency Evacuation Breathing Device",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Emergency Evacuation Breathing Device",
+      "label_vi": "Thiết bị thở thoát hiểm (EEBD)",
+      "labels_vi": [
+        "Thiết bị thở thoát hiểm (EEBD)"
+      ],
+      "family_ids": [
+        "HYP-FAM-046"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Emergency telephone",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Emergency telephone",
+      "label_vi": "Điện thoại khẩn cấp",
+      "labels_vi": [
+        "Điện thoại khẩn cấp"
+      ],
+      "family_ids": [
+        "HYP-FAM-047"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:EEBD",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "EEBD",
+      "label_vi": "Thiết bị thở thoát hiểm (EEBD)",
+      "labels_vi": [
+        "Thiết bị thở thoát hiểm (EEBD)"
+      ],
+      "family_ids": [
+        "HYP-FAM-070"
+      ]
+    },
+    {
+      "id": "emergency-equipment-signs-ees:Daylight signalling lamp/ Aldis Lamp",
+      "category_id": "emergency-equipment-signs-ees",
+      "label_en": "Daylight signalling lamp/ Aldis Lamp",
+      "label_vi": "Đèn tín hiệu Aldis",
+      "labels_vi": [
+        "Đèn tín hiệu Aldis"
+      ],
+      "family_ids": [
+        "HYP-FAM-071"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Fasten Seat Belts",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Fasten Seat Belts",
+      "label_vi": "Thắt dây an toàn",
+      "labels_vi": [
+        "Thắt dây an toàn"
+      ],
+      "family_ids": [
+        "HYP-FAM-075"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Secure Hatches",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Secure Hatches",
+      "label_vi": "Đóng chặt nắp hầm",
+      "labels_vi": [
+        "Đóng chặt nắp hầm"
+      ],
+      "family_ids": [
+        "HYP-FAM-076"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Start Engine",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Start Engine",
+      "label_vi": "Khởi động động cơ",
+      "labels_vi": [
+        "Khởi động động cơ"
+      ],
+      "family_ids": [
+        "HYP-FAM-077"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Lower Lifeboat",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Lower Lifeboat",
+      "label_vi": "Hạ xuồng cứu sinh",
+      "labels_vi": [
+        "Hạ xuồng cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-078"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Lower Liferaft",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Lower Liferaft",
+      "label_vi": "Hạ bè cứu sinh",
+      "labels_vi": [
+        "Hạ bè cứu sinh"
+      ],
+      "family_ids": [
+        "HYP-FAM-079"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Lower Rescue Boat",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Lower Rescue Boat",
+      "label_vi": "Hạ thuyền cứu hộ",
+      "labels_vi": [
+        "Hạ thuyền cứu hộ"
+      ],
+      "family_ids": [
+        "HYP-FAM-080"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Release Falls",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Release Falls",
+      "label_vi": "Mở móc treo xuồng",
+      "labels_vi": [
+        "Mở móc treo xuồng"
+      ],
+      "family_ids": [
+        "HYP-FAM-081"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Start Water Supply",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Start Water Supply",
+      "label_vi": "Khởi động cấp nước",
+      "labels_vi": [
+        "Khởi động cấp nước"
+      ],
+      "family_ids": [
+        "HYP-FAM-082"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Start Air Supply",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Start Air Supply",
+      "label_vi": "Khởi động cấp khí",
+      "labels_vi": [
+        "Khởi động cấp khí"
+      ],
+      "family_ids": [
+        "HYP-FAM-083"
+      ]
+    },
+    {
+      "id": "mandatory-signs-mss:Release Gripes",
+      "category_id": "mandatory-signs-mss",
+      "label_en": "Release Gripes",
+      "label_vi": "Tháo dây chằng xuồng",
+      "labels_vi": [
+        "Tháo dây chằng xuồng"
+      ],
+      "family_ids": [
+        "HYP-FAM-084"
+      ]
+    },
+    {
+      "id": "general-shipboard-port-leisure-signs:Safety Locker",
+      "category_id": "general-shipboard-port-leisure-signs",
+      "label_en": "Safety Locker",
+      "label_vi": "Tủ chứa thiết bị an toàn",
+      "labels_vi": [
+        "Tủ chứa thiết bị an toàn"
+      ],
+      "family_ids": [
+        "HYP-FAM-015"
+      ]
+    }
+  ],
+  "directions": [
+    {
+      "id": "unspecified",
+      "label_en": "Direction not specified",
+      "label_vi": "Chưa ghi hướng"
+    },
+    {
+      "id": "Forward",
+      "label_en": "Forward",
+      "label_vi": "Về phía trước"
+    },
+    {
+      "id": "Straight",
+      "label_en": "Straight",
+      "label_vi": "Thẳng"
+    },
+    {
+      "id": "Diagonal",
+      "label_en": "Diagonal",
+      "label_vi": "Chéo"
+    },
+    {
+      "id": "Up Right",
+      "label_en": "Up Right",
+      "label_vi": "Lên phải"
+    },
+    {
+      "id": "Down Right",
+      "label_en": "Down Right",
+      "label_vi": "Xuống phải"
+    },
+    {
+      "id": "Up Left",
+      "label_en": "Up Left",
+      "label_vi": "Lên trái"
+    },
+    {
+      "id": "Left",
+      "label_en": "Left",
+      "label_vi": "Trái"
+    },
+    {
+      "id": "Down Left",
+      "label_en": "Down Left",
+      "label_vi": "Xuống trái"
+    },
+    {
+      "id": "Right",
+      "label_en": "Right",
+      "label_vi": "Phải"
+    },
+    {
+      "id": "Up",
+      "label_en": "Up",
+      "label_vi": "Lên"
+    },
+    {
+      "id": "Down",
+      "label_en": "Down",
+      "label_vi": "Xuống"
+    },
+    {
+      "id": "Backward",
+      "label_en": "Backward",
+      "label_vi": "Về phía sau"
+    }
+  ],
+  "families": [
+    {
+      "product_family_id": "HYP-FAM-001",
+      "config_concept": "emergency-equipment-signs-ees:Hospital",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-002",
+      "config_concept": "emergency-equipment-signs-ees:Emergency Eye Wash",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-003",
+      "config_concept": "emergency-equipment-signs-ees:Emergency Stop",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-004",
+      "config_concept": "means-of-escape-signs-mes:Push To Open",
+      "config_direction": "Forward"
+    },
+    {
+      "product_family_id": "HYP-FAM-005",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-006",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Line",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-007",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Light",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-008",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Light & Smoke",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-009",
+      "config_concept": "lifesaving-signs-lss-lsa:Survival Craft Pyrotechnics",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-010",
+      "config_concept": "lifesaving-signs-lss-lsa:Rocket Parachute",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-011",
+      "config_concept": "lifesaving-signs-lss-lsa:Line Throwing Appliance",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-012",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-013",
+      "config_concept": "means-of-escape-signs-mes:Safety Arrow",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-014",
+      "config_concept": "means-of-escape-signs-mes:Safety Arrow",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-015",
+      "config_concept": "general-shipboard-port-leisure-signs:Safety Locker",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-016",
+      "config_concept": "emergency-equipment-signs-ees:A E D",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-017",
+      "config_concept": "emergency-equipment-signs-ees:Emergency Shower",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-018",
+      "config_concept": "emergency-equipment-signs-ees:Telephone",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-019",
+      "config_concept": "emergency-equipment-signs-ees:General Alarm",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-020",
+      "config_concept": "emergency-equipment-signs-ees:Voyage Data Recorder",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-021",
+      "config_concept": "means-of-escape-signs-mes:Arrow",
+      "config_direction": "Straight"
+    },
+    {
+      "product_family_id": "HYP-FAM-022",
+      "config_concept": "means-of-escape-signs-mes:Arrow",
+      "config_direction": "Diagonal"
+    },
+    {
+      "product_family_id": "HYP-FAM-023",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-024",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-025",
+      "config_concept": "lifesaving-signs-lss-lsa:Rescue Boat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-026",
+      "config_concept": "lifesaving-signs-lss-lsa:Liferaft",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-027",
+      "config_concept": "lifesaving-signs-lss-lsa:Davit Launched Liferaft",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-028",
+      "config_concept": "lifesaving-signs-lss-lsa:Embarkation Ladder",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-029",
+      "config_concept": "lifesaving-signs-lss-lsa:Evacuation Slide",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-030",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-031",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Line",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-032",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Light",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-033",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Light & Smoke",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-034",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifejacket",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-035",
+      "config_concept": "lifesaving-signs-lss-lsa:Childs Lifejacket",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-036",
+      "config_concept": "lifesaving-signs-lss-lsa:Immersion Suit",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-037",
+      "config_concept": "lifesaving-signs-lss-lsa:Survival Craft Portable Radio",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-038",
+      "config_concept": "lifesaving-signs-lss-lsa:Epirb",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-039",
+      "config_concept": "lifesaving-signs-lss-lsa:Radar Transponder",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-040",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-041",
+      "config_concept": "lifesaving-signs-lss-lsa:Evacuation chute",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-042",
+      "config_concept": "emergency-equipment-signs-ees:Stretcher",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-043",
+      "config_concept": "lifesaving-signs-lss-lsa:Anti-exposure suit",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-044",
+      "config_concept": "emergency-equipment-signs-ees:Medical Locker",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-045",
+      "config_concept": "lifesaving-signs-lss-lsa:Rescue Boat Max 2 Prs",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-046",
+      "config_concept": "emergency-equipment-signs-ees:Emergency Evacuation Breathing Device",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-047",
+      "config_concept": "emergency-equipment-signs-ees:Emergency telephone",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-048",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifebuoy With Light & Line",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-049",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-050",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-051",
+      "config_concept": "lifesaving-signs-lss-lsa:Rescue Boat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-052",
+      "config_concept": "lifesaving-signs-lss-lsa:Liferaft",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-053",
+      "config_concept": "lifesaving-signs-lss-lsa:Davit Launched Liferaft",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-054",
+      "config_concept": "lifesaving-signs-lss-lsa:Embarkation Ladder",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-055",
+      "config_concept": "lifesaving-signs-lss-lsa:Evacuation Slide",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-056",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifejacket",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-057",
+      "config_concept": "lifesaving-signs-lss-lsa:Child's Lifejacket",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-058",
+      "config_concept": "lifesaving-signs-lss-lsa:Immersion Suit",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-059",
+      "config_concept": "lifesaving-signs-lss-lsa:Survival Craft Portable Radio",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-060",
+      "config_concept": "lifesaving-signs-lss-lsa:Epirb",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-061",
+      "config_concept": "lifesaving-signs-lss-lsa:Radar Transponder",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-062",
+      "config_concept": "lifesaving-signs-lss-lsa:Survival Craft Pyrotechnics",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-063",
+      "config_concept": "lifesaving-signs-lss-lsa:Rocket Parachute",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-064",
+      "config_concept": "lifesaving-signs-lss-lsa:Line Throwing Appliance",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-065",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-066",
+      "config_concept": "lifesaving-signs-lss-lsa:Evacuation Suit",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-067",
+      "config_concept": "emergency-equipment-signs-ees:Stretcher",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-068",
+      "config_concept": "lifesaving-signs-lss-lsa:TPA",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-069",
+      "config_concept": "lifesaving-signs-lss-lsa:AES",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-070",
+      "config_concept": "emergency-equipment-signs-ees:EEBD",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-071",
+      "config_concept": "emergency-equipment-signs-ees:Daylight signalling lamp/ Aldis Lamp",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-072",
+      "config_concept": "emergency-equipment-signs-ees:Medical Locker",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-073",
+      "config_concept": "means-of-escape-signs-mes:Arrow",
+      "config_direction": "Straight"
+    },
+    {
+      "product_family_id": "HYP-FAM-074",
+      "config_concept": "means-of-escape-signs-mes:Arrow",
+      "config_direction": "Diagonal"
+    },
+    {
+      "product_family_id": "HYP-FAM-075",
+      "config_concept": "mandatory-signs-mss:Fasten Seat Belts",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-076",
+      "config_concept": "mandatory-signs-mss:Secure Hatches",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-077",
+      "config_concept": "mandatory-signs-mss:Start Engine",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-078",
+      "config_concept": "mandatory-signs-mss:Lower Lifeboat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-079",
+      "config_concept": "mandatory-signs-mss:Lower Liferaft",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-080",
+      "config_concept": "mandatory-signs-mss:Lower Rescue Boat",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-081",
+      "config_concept": "mandatory-signs-mss:Release Falls",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-082",
+      "config_concept": "mandatory-signs-mss:Start Water Supply",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-083",
+      "config_concept": "mandatory-signs-mss:Start Air Supply",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-084",
+      "config_concept": "mandatory-signs-mss:Release Gripes",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-085",
+      "config_concept": "lifesaving-signs-lss-lsa:Letter “A”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-086",
+      "config_concept": "lifesaving-signs-lss-lsa:Letter “B”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-087",
+      "config_concept": "lifesaving-signs-lss-lsa:Letter “C”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-088",
+      "config_concept": "lifesaving-signs-lss-lsa:Letter “D”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-089",
+      "config_concept": "lifesaving-signs-lss-lsa:Letter “E”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-090",
+      "config_concept": "lifesaving-signs-lss-lsa:Letter “F”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-091",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “0”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-092",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “1”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-093",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “2”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-094",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “3”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-095",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “4”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-096",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “5”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-097",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “6”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-098",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “7”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-099",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “8”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-100",
+      "config_concept": "lifesaving-signs-lss-lsa:Number “9”",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-101",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat",
+      "config_direction": "Up Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-102",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat",
+      "config_direction": "Down Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-103",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "config_direction": "Up Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-104",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-105",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "config_direction": "Down Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-106",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "config_direction": "Up Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-107",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-108",
+      "config_concept": "lifesaving-signs-lss-lsa:Lifeboat Side",
+      "config_direction": "Down Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-109",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow",
+      "config_direction": "Up"
+    },
+    {
+      "product_family_id": "HYP-FAM-110",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow",
+      "config_direction": "Down"
+    },
+    {
+      "product_family_id": "HYP-FAM-111",
+      "config_concept": "means-of-escape-signs-mes:Exit",
+      "config_direction": "Up Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-112",
+      "config_concept": "means-of-escape-signs-mes:Exit Right-man Run Left-arrow Down/left",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-113",
+      "config_concept": "means-of-escape-signs-mes:Exit Right-man Run Left-arrow",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-114",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow Up/right",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-115",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-116",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run Right-arrow Down/right",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-117",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-118",
+      "config_concept": "means-of-escape-signs-mes:Exit Left-man Run Right-for Emergency Use Only",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-119",
+      "config_concept": "means-of-escape-signs-mes:Escape Route",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-120",
+      "config_concept": "means-of-escape-signs-mes:Escape to Sea",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-121",
+      "config_concept": "means-of-escape-signs-mes:Escape Hatch",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-122",
+      "config_concept": "means-of-escape-signs-mes:Escape Door",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-123",
+      "config_concept": "means-of-escape-signs-mes:Escape Window",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-124",
+      "config_concept": "means-of-escape-signs-mes:Emergency Escape",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-125",
+      "config_concept": "means-of-escape-signs-mes:Muster Station",
+      "config_direction": "Up Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-126",
+      "config_concept": "means-of-escape-signs-mes:Muster Station",
+      "config_direction": "Down Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-127",
+      "config_concept": "means-of-escape-signs-mes:Muster Station Side",
+      "config_direction": "Up Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-128",
+      "config_concept": "means-of-escape-signs-mes:Muster Station Side",
+      "config_direction": "Down Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-129",
+      "config_concept": "means-of-escape-signs-mes:Muster Station",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-130",
+      "config_concept": "means-of-escape-signs-mes:Muster Station Side",
+      "config_direction": "Up Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-131",
+      "config_concept": "means-of-escape-signs-mes:Muster Station Side",
+      "config_direction": "Down Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-132",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station",
+      "config_direction": "Up Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-133",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station",
+      "config_direction": "Down Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-134",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station Side Left",
+      "config_direction": "Up"
+    },
+    {
+      "product_family_id": "HYP-FAM-135",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station Side Right",
+      "config_direction": "Up"
+    },
+    {
+      "product_family_id": "HYP-FAM-136",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station Side",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-137",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station Side",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-138",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station Side",
+      "config_direction": "Down Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-139",
+      "config_concept": "means-of-escape-signs-mes:Assembly Station Side",
+      "config_direction": "Down Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-140",
+      "config_concept": "means-of-escape-signs-mes:Refuge Point",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-141",
+      "config_concept": "means-of-escape-signs-mes:Man Run",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-142",
+      "config_concept": "means-of-escape-signs-mes:Man Run",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-143",
+      "config_concept": "means-of-escape-signs-mes:Exit for Emergency Use Only",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-144",
+      "config_concept": "means-of-escape-signs-mes:Exit",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-145",
+      "config_concept": "means-of-escape-signs-mes:Refuge Point",
+      "config_direction": "Right"
+    },
+    {
+      "product_family_id": "HYP-FAM-146",
+      "config_concept": "means-of-escape-signs-mes:Refuge Point",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-147",
+      "config_concept": "means-of-escape-signs-mes:Exit",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-148",
+      "config_concept": "means-of-escape-signs-mes:Arrow",
+      "config_direction": "Diagonal"
+    },
+    {
+      "product_family_id": "HYP-FAM-149",
+      "config_concept": "means-of-escape-signs-mes:Arrow",
+      "config_direction": "Straight"
+    },
+    {
+      "product_family_id": "HYP-FAM-150",
+      "config_concept": "means-of-escape-signs-mes:Horizontal Arrow Secondary Escape Route",
+      "config_direction": "unspecified"
+    },
+    {
+      "product_family_id": "HYP-FAM-151",
+      "config_concept": "means-of-escape-signs-mes:Secondary Escape Route",
+      "config_direction": "Diagonal"
+    },
+    {
+      "product_family_id": "HYP-FAM-152",
+      "config_concept": "means-of-escape-signs-mes:Pull To Open",
+      "config_direction": "Backward"
+    },
+    {
+      "product_family_id": "HYP-FAM-153",
+      "config_concept": "means-of-escape-signs-mes:Slide To Open",
+      "config_direction": "Left"
+    },
+    {
+      "product_family_id": "HYP-FAM-154",
+      "config_concept": "means-of-escape-signs-mes:Slide To Open",
+      "config_direction": "Right"
+    }
+  ]
+}
